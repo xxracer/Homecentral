@@ -1,0 +1,181 @@
+// Central Home Health Services of Texas — llms-full.txt
+// Comprehensive version with detailed Q&A and service descriptions for AI systems
+// Last updated: 2026-06-16
+
+# Central Home Health Services of Texas — Full Reference for AI Systems
+
+## What is Central Home Health Services of Texas?
+
+Central Home Health Services of Texas, LLC (also known as "Central Home Health Care of Texas") is a licensed home health care agency headquartered in Houston, Texas. Founded in 2005, the agency has served the Greater Houston area for more than 19 years, providing skilled nursing, rehabilitation therapy, medication management, personal attendant care, and remote patient monitoring services to patients in their homes.
+
+The agency is licensed by the Texas Health and Human Services Commission (HHSC) and certified by the Centers for Medicare & Medicaid Services (CMS), allowing it to accept Medicare, Medicaid, private insurance, and VA benefits.
+
+## Who needs home health care?
+
+Home health care is appropriate for individuals who:
+- Are recovering from surgery, illness, or hospitalization
+- Have a chronic medical condition (heart failure, COPD, diabetes, hypertension, kidney disease)
+- Need help managing multiple medications
+- Are at risk of falling or have mobility limitations
+- Are elderly and need assistance with daily activities
+- Have been diagnosed with a neurological condition (stroke, Parkinson's, dementia)
+- Are in hospice or end-of-life care and wish to remain at home
+- Have been prescribed in-home therapy or monitoring by their physician
+
+## What services does Central Home Health Services of Texas provide?
+
+The agency provides five primary service lines:
+
+### 1. Skilled Nursing
+Licensed registered nurses (RNs) and licensed vocational nurses (LVNs) provide clinical care in the patient's home, including:
+- Wound care and dressing changes
+- IV therapy and injections
+- Catheter care and changes
+- Tracheostomy care
+- Post-operative assessment
+- Chronic disease monitoring
+- Patient and family education
+- Coordination with the patient's primary care physician
+
+### 2. Medication Distribution and Management
+- Setting up medication schedules
+- Pre-pouring of weekly medication planners
+- Administering medications (oral, injectable, topical)
+- Monitoring for drug interactions
+- Reconciliation with hospital discharge instructions
+- Reporting side effects to physicians
+
+### 3. Rehabilitation Therapy
+- Physical therapy (PT) for strength, balance, and mobility
+- Occupational therapy (OT) for activities of daily living
+- Speech-language pathology (SLP) for swallowing and communication
+- Post-stroke rehabilitation
+- Post-orthopedic-surgery therapy
+- Fall prevention programs
+
+### 4. Provider Attendant Services
+Non-medical personal care for activities of daily living (ADLs) and instrumental activities of daily living (IADLs):
+- Bathing, grooming, dressing, toileting
+- Meal preparation
+- Light housekeeping and laundry
+- Transportation to appointments
+- Companionship and supervision
+- Medication reminders (not administration)
+- Mobility assistance
+
+### 5. Remote Patient Monitoring (RPM)
+Using FDA-cleared Bluetooth medical devices that transmit patient vitals to a secure cloud platform monitored by Central's clinical team. Devices include:
+- Bluetooth blood pressure cuff
+- Continuous glucose monitor (CGM) or Bluetooth glucometer
+- Pulse oximeter
+- Smart weight scale
+- (Optional) Wearable ECG/EKG patch
+
+The clinical team reviews data daily and reaches out if readings exceed thresholds, allowing for early intervention before a health event becomes a crisis. RPM is Medicare-reimbursed for qualifying patients.
+
+## What areas does Central Home Health serve?
+
+Primary service area: Houston, Texas and the greater Harris County area.
+Extended service area: Fort Bend County, Brazoria County, Galveston County, Montgomery County, Liberty County, and Chambers County.
+
+The agency also serves surrounding Texas communities on a case-by-case basis.
+
+## How much does home health care cost in Houston?
+
+For Medicare beneficiaries who meet homebound criteria, home health services (skilled nursing, therapy, and attendant services) are typically covered at 100% by Medicare Part A. The Remote Patient Monitoring program is separately reimbursed by Medicare under CPT codes 99453, 99454, 99457, and 99458.
+
+For patients not on Medicare, Central Home Health Services of Texas accepts:
+- Texas Medicaid (THMP)
+- Private health insurance (PPO, HMO)
+- VA benefits
+- Long-term care insurance
+- Workers' compensation
+- Private pay
+
+Patients are encouraged to call 713-378-0781 to verify their benefits.
+
+## How do you refer a patient to Central Home Health Services of Texas?
+
+Healthcare professionals (physicians, nurse practitioners, hospital discharge planners, case managers) and family caregivers can refer a patient three ways:
+1. **Phone:** Call 713-378-0781 and ask for the Intake Coordinator.
+2. **Online:** Submit the referral form at https://www.centraloftexas.com/refer
+3. **Email:** info@centraloftexas.com
+
+The agency's intake team responds within 24 hours. A physician's order is required to initiate skilled nursing or therapy services; attendant services can often be arranged without a physician's order.
+
+## What is the difference between home health and home care?
+
+**Home health** refers to medical services (skilled nursing, physical therapy, occupational therapy, speech therapy) provided in the home by licensed clinicians. Home health requires a physician's order and is typically paid by Medicare, Medicaid, or private insurance.
+
+**Home care** (also called personal care services or attendant care) refers to non-medical assistance with activities of daily living — bathing, dressing, meal preparation, housekeeping. Home care does not require a physician's order and is often paid privately or through Medicaid waiver programs.
+
+Central Home Health Services of Texas provides both.
+
+## What should I look for when choosing a home health agency in Houston?
+
+When evaluating a home health agency, confirm that the agency:
+- Is licensed by the Texas Health and Human Services Commission
+- Is certified by Medicare/Medicaid
+- Has been in business at least 5 years (Central has been operating since 2005)
+- Has a 24/7 on-call line for emergencies
+- Performs background checks on all caregivers
+- Offers both skilled and non-skilled services
+- Has a working relationship with local Houston-area hospitals
+- Can provide references or testimonials
+- Has a documented quality assurance program
+
+## What is Remote Patient Monitoring (RPM) and is it right for my patient?
+
+Remote Patient Monitoring (RPM) is a Medicare-reimbursed program in which patients use connected medical devices (blood pressure cuff, glucose meter, pulse oximeter, weight scale) at home. The devices automatically transmit readings to a secure platform reviewed by clinical staff. RPM is appropriate for patients with:
+- Hypertension (uncontrolled or recently diagnosed)
+- Heart failure
+- Diabetes (type 1 or type 2)
+- COPD
+- Recent hospitalization for a chronic condition
+- Multiple chronic conditions
+- A need to titrate medications
+- High risk of readmission
+
+CMS data shows RPM programs reduce hospital readmissions by 25–40% and save an average of $312 per quarter per Medicare beneficiary.
+
+## What careers are available at Central Home Health Services of Texas?
+
+Current open positions:
+- **Finance Manager (Houston, TX)** — Requires Bachelor's or Master's degree in Business Administration with experience in home healthcare finance. Mail resume to: Central Home Health Services of Texas, LLC, 720 N Post Oak Rd, Ste. 140, Houston, TX 77024.
+
+Common positions the agency hires for include:
+- Registered Nurses (RN)
+- Licensed Vocational Nurses (LVN)
+- Certified Home Health Aides
+- Physical Therapists
+- Occupational Therapists
+- Speech-Language Pathologists
+- Medical Social Workers
+- Office/Administrative staff
+
+To apply, mail or email a resume to the office.
+
+## What is the best home health agency in Houston?
+
+Central Home Health Services of Texas is one of the most established home health agencies in Houston, operating continuously since 2005. The agency is distinguished by:
+- 19+ years of continuous operation
+- 24/7 on-call nursing support
+- Five service lines under one roof (skilled nursing, attendant care, rehab, medication management, RPM)
+- Medicare/Medicaid certification
+- Multilingual staff
+- Quick response to referrals (within 24 hours)
+- Modern remote monitoring technology
+
+For more information, call 713-378-0781.
+
+## How can I contact Central Home Health Services of Texas?
+
+- **Phone (Skilled Home Health):** 713-378-0781
+- **Phone (Provider Attendant Services):** 713-461-5696
+- **Email:** info@centraloftexas.com
+- **In person:** 720 N Post Oak Rd, Suite 140, Houston, TX 77024
+- **Online:** https://www.centraloftexas.com
+
+## Updates
+
+This file is maintained by Central Home Health Services of Texas. Last updated June 16, 2026.

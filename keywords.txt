@@ -1,0 +1,243 @@
+// All keywords used in Central Home Health Services of Texas — SEO/AEO strategy
+// Sources: app/layout.tsx, app/blog/page.tsx, app/blog/*/page.tsx, app/services-areas/Houston/page.tsx, lib/data.ts
+// Generated: 2026-06-16
+
+================================================================
+1) ROOT LAYOUT METADATA (app/layout.tsx) — 50+ keywords
+================================================================
+
+home health care Houston
+home health care Texas
+Houston home health agency
+skilled nursing Houston
+home health care near me
+in-home care Houston TX
+Medicare home health Houston
+home health services Houston
+best home health agency Houston
+24 hour home care Houston
+home health aide Houston
+post-surgery home care
+elderly home care Houston
+Houston TX home health
+homebound patient care
+wound care at home Houston
+IV therapy home Houston
+physical therapy home Houston
+occupational therapy home Houston
+speech therapy home Houston
+medication management home
+remote patient monitoring RPM
+RPM Houston
+RPM Medicare
+telehealth home health
+telehealth monitoring Houston
+post-hospital recovery care
+stroke recovery home care
+heart failure home care
+diabetes home care
+COPD home care
+Houston home care agency
+private duty nursing Houston
+attendant care services
+CNA Houston home care
+home health careers Houston
+home health care jobs Texas
+home health referrals Houston
+discharge planning Houston
+Harris County home health
+Fort Bend home health
+Montgomery County home health
+Brazoria home health
+Galveston home health
+memory care home Houston
+Parkinson's care home
+Alzheimer's home care
+dementia home care Houston
+Central Home Health
+Central Home Health Care of Texas
+
+
+================================================================
+2) HOUSTON SERVICE-AREA PAGE (app/services-areas/Houston/page.tsx)
+================================================================
+
+home health care Houston
+Houston home health agency
+home health services Houston TX
+skilled nursing Houston
+home care Houston
+Houston TX home health
+Medicare home health Houston
+
+(Page also includes dozens of Houston neighborhood names for local SEO:
+Houston Heights, Montrose, Museum District, Medical Center, Rice Village,
+West University, Bellaire, Meyerland, Sharpstown, Gulfton, Memorial,
+Spring Branch, Energy Corridor, Katy, Sugar Land, Missouri City, Pearland,
+Clear Lake, Webster, Kingwood, Humble, Atascocita, Cypress, Tomball,
+The Woodlands, Conroe, Pasadena, Deer Park, La Porte, Baytown, Channelview)
+
+
+================================================================
+3) BLOG INDEX (app/blog/page.tsx)
+================================================================
+
+home health care blog
+Houston home health articles
+RPM guide
+skilled nursing tips
+caregiver advice Houston
+home health costs Texas
+
+
+================================================================
+4) NEW BLOG POSTS (2026-06-17)
+================================================================
+
+best home health care services for elderly
+elderly home care services
+home health care for seniors
+in-home care for elderly Texas
+senior home health services Houston
+skilled nursing elderly
+medication management seniors
+fall prevention elderly home care
+
+affordable home health care near me
+cheap home health care providers
+low cost home health care
+home health care prices Houston
+home care cost Texas
+Medicare home health cost
+Medicaid home health Texas
+private pay home care
+
+in-home nursing care cost
+home nursing care prices
+private duty nursing cost Houston
+RN home care cost
+LVN home care cost
+home health aide hourly rate
+skilled nursing visit cost
+24 hour home nursing cost
+
+best RPM devices
+remote patient monitoring devices
+home blood pressure monitor RPM
+Bluetooth glucometer RPM
+pulse oximeter RPM
+smart scale RPM
+ECG patch RPM
+FDA cleared RPM devices
+
+what is remote patient monitoring
+remote patient monitoring benefits
+RPM benefits patients
+how does RPM work
+why use remote patient monitoring
+RPM diabetes benefits
+RPM heart failure benefits
+
+best remote blood pressure monitor
+bluetooth blood pressure cuff RPM
+Omron RPM blood pressure monitor
+Welch Allyn blood pressure monitor
+Withings blood pressure monitor
+FDA cleared blood pressure monitor
+Medicare blood pressure monitor
+
+
+================================================================
+5) RPM BLOG POST (app/blog/what-is-remote-patient-monitoring/page.tsx)
+================================================================
+
+remote patient monitoring
+RPM
+RPM Medicare
+RPM Houston
+RPM Texas
+remote patient monitoring devices
+RPM CPT codes
+RPM 99457
+RPM 99454
+RPM benefits
+RPM for heart failure
+RPM for diabetes
+RPM for hypertension
+RPM for COPD
+
+
+================================================================
+6) MEDICARE BLOG POST (app/blog/medicare-home-health-coverage-2026/page.tsx)
+================================================================
+
+Medicare home health coverage
+Medicare home health 2026
+Medicare Part A home health
+home health benefits
+Medicare skilled nursing
+Medicare homebound criteria
+home health eligibility
+
+
+================================================================
+7) BRAND / NAV / FOOTER REFERENCES
+================================================================
+
+Central Home Health
+Central Home Health Care of Texas
+Central Home Health Services of Texas
+info@centraloftexas.com
+713-378-0781
+713-461-5696
+Houston, TX 77024
+720 N Post Oak Rd
+
+
+================================================================
+SUMMARY
+================================================================
+
+Total unique keywords in metadata + page-level SEO: 100+
+Top-priority target keywords (highest search volume + intent):
+  - remote patient monitoring
+  - RPM Medicare
+  - home health care Houston
+  - best home health care services for elderly
+  - affordable home health care near me
+  - compare in-home nursing care costs
+  - Medicare home health coverage
+  - skilled nursing Houston
+  - home health services Houston
+  - best home health agency Houston
+  - 24 hour home care Houston
+  - in-home care Houston TX
+  - elderly home care Houston
+  - post-surgery home care
+  - home health aide Houston
+  - post-hospital recovery care
+  - heart failure home care
+  - diabetes home care
+  - COPD home care
+  - stroke recovery home care
+  - home health referrals Houston
+  - discharge planning Houston
+  - home health careers Houston
+  - private duty nursing Houston
+  - remote patient monitoring devices
+  - home blood pressure monitor RPM
+  - best remote blood pressure monitor
+
+Long-tail intent keywords (lower volume, very high conversion):
+  - does Medicare cover home health care in 2026
+  - what is remote patient monitoring
+  - what is remote patient monitoring and how does it benefit me
+  - how does RPM work
+  - how to choose the best home health agency in Houston
+  - signs your elderly parent needs home health care
+  - recover at home after hip replacement
+  - stroke recovery home health therapy
+  - Medicare homebound criteria
+  - RPM CPT codes 99453 99454 99457 99458
+  - leading remote blood pressure monitors for home use
+  - leading remote patient monitoring devices available for home use

@@ -16,6 +16,8 @@ interface ButtonProps {
   type?: "button" | "submit" | "reset";
   disabled?: boolean;
   onClick?: () => void;
+  /** Open href in a new tab (for external links). */
+  external?: boolean;
 }
 
 const variantStyles: Record<ButtonVariant, string> = {
@@ -45,6 +47,7 @@ export default function Button({
   type = "button",
   disabled = false,
   onClick,
+  external = false,
 }: ButtonProps) {
   const classes = `
     inline-flex items-center justify-center gap-2 font-semibold
@@ -69,6 +72,9 @@ export default function Button({
         whileHover={{ scale: 1.02, y: -1 }}
         whileTap={{ scale: 0.98 }}
         transition={springTransition}
+        {...(external
+          ? { target: "_blank", rel: "noopener noreferrer" }
+          : {})}
       >
         {icon && <span className="text-xl">{icon}</span>}
         {children}

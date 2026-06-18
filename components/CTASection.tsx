@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import Button from "@/components/ui/Button";
-import { contactInfo } from "@/lib/data";
+import { contactInfo, referralUrl } from "@/lib/data";
 import { HiPhone, HiArrowRight } from "react-icons/hi";
 
 export default function CTASection() {
@@ -45,7 +45,8 @@ export default function CTASection() {
             <Button
               variant="outline"
               size="lg"
-              href="/refer"
+              href={referralUrl}
+              external
               icon={<HiArrowRight />}
               className="!border-white/40 !text-white hover:!bg-white hover:!text-primary"
             >

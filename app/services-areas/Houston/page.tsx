@@ -7,13 +7,13 @@ export const metadata: Metadata = {
   title:
     "Home Health Care Services in Houston, TX | Central Home Health Care of Texas",
   description:
-    "Top-rated home health care agency serving Houston, TX. Skilled nursing, medication management, rehabilitation therapy, attendant care, and Medicare-covered Remote Patient Monitoring (RPM). 24/7 availability. Call 713-378-0781.",
+    "Trusted home health care agency serving Houston, TX. Skilled nursing, wound care, medication management, rehabilitation therapy, provider attendant services, and Medicare-covered Remote Patient Monitoring (RPM). Call 713-387-0781.",
   keywords: [
     "home health care Houston",
     "Houston home health agency",
     "home health services Houston TX",
     "skilled nursing Houston",
-    "home care Houston",
+    "skilled home health Houston",
     "Houston TX home health",
     "Medicare home health Houston",
   ],
@@ -35,7 +35,7 @@ export default function HoustonPage() {
             home health care provider for Houston families since 2005.
             From the Medical Center to Memorial, from Katy to Kingwood, our
             licensed nurses, therapists, and attendants bring hospital-quality
-            care directly to your home — 24 hours a day, 7 days a week.
+            skilled home health and provider attendant care directly to your home.
           </p>
         </header>
 
@@ -56,13 +56,13 @@ export default function HoustonPage() {
             </li>
             <li>
               <strong className="text-primary">Medication Management in Houston:</strong>{" "}
-              Pre-poured weekly planners, dosage verification, and 24/7
-              licensed oversight.
+              Pre-poured weekly planners, dosage verification, and licensed
+              practitioner oversight.
             </li>
             <li>
-              <strong className="text-primary">Attendant Care in Houston:</strong>{" "}
-              Help with bathing, dressing, meal prep, mobility, and daily
-              living activities.
+              <strong className="text-primary">Provider Attendant Services (PAS) in Houston:</strong>{" "}
+              A Medicaid benefit providing caregiver help with bathing,
+              dressing, meal prep, mobility, and daily living activities.
             </li>
             <li>
               <strong className="text-primary">Remote Patient Monitoring (RPM) in Houston:</strong>{" "}

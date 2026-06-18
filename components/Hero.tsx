@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import Button from "@/components/ui/Button";
-import { siteConfig, contactInfo } from "@/lib/data";
+import { siteConfig, contactInfo, referralUrl } from "@/lib/data";
 import { HiPhone, HiArrowRight } from "react-icons/hi";
 
 // Animated EKG pulse line
@@ -117,7 +117,7 @@ export default function Hero() {
           animate={{ y: [0, 8, 0] }}
           transition={{ duration: 6, repeat: Infinity, ease: "easeInOut", delay: 1 }}
         >
-          <TrustBadge label="24/7 Available" />
+          <TrustBadge label="Medicare & Medicaid Certified" />
         </motion.div>
         <motion.div
           className="absolute bottom-[30%] right-[12%]"
@@ -219,7 +219,8 @@ export default function Hero() {
             <Button
               variant="outline"
               size="lg"
-              href="/refer"
+              href={referralUrl}
+              external
               icon={<HiArrowRight />}
               className="!border-white/40 !text-white hover:!bg-white hover:!text-primary"
             >
@@ -236,7 +237,7 @@ export default function Hero() {
           >
             {[
               { value: "19+", label: "Years" },
-              { value: "24/7", label: "Care" },
+              { value: "2", label: "Care Lines" },
               { value: "500+", label: "Patients" },
             ].map((stat, i) => (
               <motion.div

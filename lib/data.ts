@@ -15,11 +15,14 @@ export interface JobPosition {
   description: string;
   requirements: string[];
   howToApply: string;
+  /** When false, the listing is shown but not yet clickable to apply. */
+  applyReady: boolean;
 }
 
 export interface NavLink {
   label: string;
   href: string;
+  external?: boolean;
 }
 
 export interface ContactInfo {
@@ -33,13 +36,16 @@ export interface ContactInfo {
   addressLine2: string;
 }
 
+// External referral portal — "Refer a Patient" links go here.
+export const referralUrl = "https://Central.referralflow.health";
+
 // ── Site metadata ──
 export const siteConfig = {
   name: "Central Home Health Care of Texas",
   shortName: "Central Home Health",
   tagline: "High Quality Care With a Lasting Impact",
   description:
-    "Central Home Health Care is the most reliable Home Care Agency in the Houston area. Our practitioners provide the best home health care services and cater to the specific needs of each client.",
+    "Central Home Health Care of Texas provides skilled home health care and provider attendant services across the Houston area. Our licensed practitioners deliver skilled nursing, rehabilitation therapy, and personalized care tailored to each client's specific needs.",
   url: "https://www.centraloftexas.com",
   ogImage: "/og-image.jpg",
   founded: 2005,
@@ -47,10 +53,10 @@ export const siteConfig = {
 
 // ── Contact ──
 export const contactInfo: ContactInfo = {
-  phone: "713-378-0781",
+  phone: "713-387-0781",
   phoneLabel: "Skilled Home Health",
   phone2: "713-461-5696",
-  phone2Label: "Provider Attendant Services",
+  phone2Label: "Provider Services (PAS)",
   email: "info@centraloftexas.com",
   address: "720 N Post Oak Rd #140, Houston, TX 77024",
   addressLine1: "720 N Post Oak Rd, Ste. 140",
@@ -58,66 +64,54 @@ export const contactInfo: ContactInfo = {
 };
 
 // ── Navigation ──
+// "Refer a Patient" is rendered as a dedicated external button in the navbar,
+// so it is intentionally NOT listed here.
 export const navLinks: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "Blog", href: "/blog" },
   { label: "Referrals", href: "/referrals" },
-  { label: "Positions", href: "/positions" },
-  { label: "Refer a Patient", href: "/refer" },
+  { label: "Careers", href: "/careers" },
 ];
 
 // ── Services ──
 export const services: Service[] = [
   {
-    id: "medication-distribution",
-    title: "Medication Distribution",
+    id: "skilled-nursing",
+    title: "Skilled Nursing",
     description:
-      "Professional, reliable Medication Distribution services tailored to each patient. Our licensed practitioners ensure personalized attention and proper medication management around the clock.",
-    icon: "medication",
+      "Compassionate, hospital-quality skilled nursing delivered in the comfort and familiarity of your own home. Our experienced RNs and LVNs manage complex medical needs and coordinate every part of your care plan.",
+    icon: "nursing",
     features: [
-      "Personalized medication schedules",
-      "Licensed practitioner oversight",
-      "24/7 availability",
-      "Proper dosage management",
+      "Wound Care",
+      "Medication Management",
+      "Medical Social Worker",
+      "Home Health Aides",
     ],
   },
   {
     id: "rehabilitation-therapy",
     title: "Rehabilitation Therapy",
     description:
-      "Rapid-response Rehabilitation Therapy services for emergencies and ongoing recovery. We bring high-quality therapeutic care directly to your home for maximum comfort and faster recovery.",
+      "In-home rehabilitation that helps you regain strength, mobility, and independence after surgery, illness, or injury. Our licensed therapists build a customized recovery plan around your goals.",
     icon: "rehab",
     features: [
-      "In-home physical therapy",
-      "Post-surgery recovery",
-      "Emergency response ready",
-      "Customized treatment plans",
+      "Physical Therapy",
+      "Occupational Therapy",
+      "Speech Therapy",
+      "Post-surgery recovery at home",
     ],
   },
   {
     id: "attendant-services",
-    title: "Provider Attendant Services",
+    title: "Provider Attendant Services (PAS)",
     description:
-      "Compassionate attendant care for daily living activities. Our trained providers assist with personal care, mobility, and household tasks so clients maintain dignity and independence at home.",
+      "A Medicaid benefit that pairs clients with a dedicated caregiver for help with daily living activities — bathing, dressing, mobility, meals, and companionship — so clients keep their dignity and independence at home. Our trained attendants care like family.",
     icon: "attendant",
     features: [
-      "Personal care assistance",
-      "Mobility support",
-      "Companionship & monitoring",
-      "Daily living activities",
-    ],
-  },
-  {
-    id: "skilled-nursing",
-    title: "24-Hour Skilled Nursing",
-    description:
-      "Round-the-clock skilled nursing care for patients with complex medical needs. Our experienced nurses deliver hospital-quality care in the comfort and familiarity of your own home.",
-    icon: "nursing",
-    features: [
-      "24/7 nursing availability",
-      "Complex medical care",
-      "Post-operative monitoring",
-      "Chronic condition management",
+      "Medicaid-funded benefit",
+      "Personal care & bathing assistance",
+      "Mobility & transfer support",
+      "Companionship & daily living activities",
     ],
   },
   {
@@ -127,7 +121,7 @@ export const services: Service[] = [
       "Advanced RPM technology that tracks your vital signs — blood pressure, glucose, oxygen levels, heart rhythm, and weight — from the comfort of your home. Our clinicians monitor your data in real time, detect changes before they become emergencies, and adjust your care plan proactively. Medicare-reimbursed and FDA-cleared devices included.",
     icon: "rpm",
     features: [
-      "Real-time vital sign tracking 24/7",
+      "Real-time vital sign tracking",
       "FDA-cleared Bluetooth devices included",
       "Early detection prevents hospitalizations",
       "Clinician review & monthly care adjustments",
@@ -137,29 +131,65 @@ export const services: Service[] = [
   },
 ];
 
-// ── Job positions ──
+// ── Job positions (Careers) ──
+// Only the three role families the user wants listed now. applyReady=false
+// means the role is visible but the Apply button is intentionally disabled
+// until compliance details are finalized.
 export const jobPositions: JobPosition[] = [
   {
-    id: "finance-manager",
-    title: "Finance Manager",
+    id: "nurse",
+    title: "Nurse (RN / LVN)",
     location: "Houston, TX",
     description:
-      "Oversee Accounts Payable process, invoices, and payments. Prepare monthly clinic volume reports, financials, and audits through Kinnser (EMR). Maintain payor contract rates and audits. Examine financial records and prepare financial reports. Maintain equipment records, inventories, ledgers, and depreciation. Assist with implementation, control, and policies for compliance.",
+      "Join our skilled home health team delivering high-quality nursing care in patients' homes. You'll manage treatments, medications, and care plans while building genuine relationships with the families you serve.",
     requirements: [
-      "Bachelor's degree in Business Administration or closely related field (or foreign equivalent) and 5 years of experience, including 3 years in finance management in home healthcare",
-      "OR Master's degree in same field and 3 years of experience in finance management in home healthcare",
-      "Experience with Kinnser EMR system",
-      "Knowledge of healthcare payor contracts and compliance",
+      "Active Texas RN or LVN license",
+      "Current CPR certification",
+      "Reliable transportation for home visits",
+      "Compassionate, patient-first mindset",
     ],
     howToApply:
-      "Mail resume to Central Home Health Services of Texas, LLC. 720 N Post Oak Rd, Ste. 140, Houston, TX 77024.",
+      "Online applications open soon. Once our compliance process is finalized, you'll be able to apply directly from this page.",
+    applyReady: false,
+  },
+  {
+    id: "caregiver",
+    title: "Caregiver",
+    location: "Houston, TX",
+    description:
+      "Provide attentive, dignified support with daily living activities through our Provider Attendant Services program. Help clients stay safe and comfortable at home while treating them like family.",
+    requirements: [
+      "High school diploma or equivalent",
+      "Reliable transportation",
+      "Patient, dependable, and caring attitude",
+      "Ability to assist with mobility and personal care",
+    ],
+    howToApply:
+      "Online applications open soon. Once our compliance process is finalized, you'll be able to apply directly from this page.",
+    applyReady: false,
+  },
+  {
+    id: "cna",
+    title: "Certified Nursing Assistant (CNA)",
+    location: "Houston, TX",
+    description:
+      "Work alongside our nurses to deliver hands-on care — taking vitals, assisting with personal care, and supporting each patient's recovery and comfort at home.",
+    requirements: [
+      "Active Texas CNA certification",
+      "Current CPR certification",
+      "Reliable transportation for home visits",
+      "Strong attention to detail and empathy",
+    ],
+    howToApply:
+      "Online applications open soon. Once our compliance process is finalized, you'll be able to apply directly from this page.",
+    applyReady: false,
   },
 ];
 
 // ── Trust stats ──
 export const trustStats = [
   { value: "19+", label: "Years of Service" },
-  { value: "24/7", label: "Care Available" },
+  { value: "2", label: "Care Lines: Skilled & PAS" },
   { value: "500+", label: "Patients Served" },
   { value: "100%", label: "Licensed Staff" },
 ];
@@ -174,7 +204,7 @@ export const referralsContent = {
       step: 1,
       title: "Submit Referral",
       description:
-        "Fill out our referral form with patient information and care needs. You can also call us directly for urgent referrals.",
+        "Send your referral through our secure online portal with patient information and care needs. You can also call us directly for urgent referrals.",
     },
     {
       step: 2,
@@ -197,9 +227,9 @@ export const referContent = {
   subtitle:
     "Know someone who needs home health care? Refer them to Central Home Health Care of Texas. We provide compassionate, professional care tailored to each individual's needs.",
   howItWorks: [
-    "Contact us by phone or fill out the form below",
+    "Submit your referral through our secure online portal",
     "Provide basic information about the patient's needs",
-    "Our team will reach out within 24 hours to arrange a consultation",
+    "Our team reviews the referral and arranges a consultation",
     "We develop a personalized care plan and begin services",
   ],
 };

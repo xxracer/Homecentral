@@ -14,8 +14,8 @@ export default function TrustStats() {
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl shadow-primary/10 aspect-[4/3]">
               <Image
-                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=1200&auto=format&fit=crop"
-                alt="Compassionate caregiver with elderly patient at home"
+                src="https://images.pexels.com/photos/7551668/pexels-photo-7551668.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                alt="Caregiver helping a senior at home"
                 fill
                 className="object-cover"
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -54,9 +54,9 @@ export default function TrustStats() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              Houston&apos;s Most Reliable
+              Skilled Home Health &amp;
               <br />
-              Home Care Agency
+              Provider Attendant Services
             </motion.h2>
             <motion.p
               className="text-text-secondary text-lg leading-relaxed mb-6"
@@ -75,9 +75,9 @@ export default function TrustStats() {
               transition={{ duration: 0.5, delay: 0.2 }}
             >
               We bring high quality care right to your front door so that you can get
-              better in an environment that is comfortable and familiar to you. Our
-              practitioners provide the best home health care services and cater to the
-              specific needs of each client.
+              better in an environment that is comfortable and familiar to you. From
+              skilled nursing and rehabilitation therapy to Medicaid-funded attendant
+              care, our practitioners cater to the specific needs of each client.
             </motion.p>
 
             {/* Stats grid */}

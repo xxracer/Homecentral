@@ -4,8 +4,8 @@ import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { navLinks, siteConfig } from "@/lib/data";
-import { HiMenu, HiX } from "react-icons/hi";
+import { navLinks, siteConfig, referralUrl } from "@/lib/data";
+import { HiMenu, HiX, HiArrowRight } from "react-icons/hi";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -80,16 +80,19 @@ export default function Navbar() {
                   </Link>
                 );
               })}
-              <Link
-                href="/refer"
-                className={`ml-3 px-5 py-2 text-sm font-semibold rounded-xl transition-all duration-300 ${
+              <a
+                href={referralUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`ml-3 inline-flex items-center gap-1.5 px-5 py-2 text-sm font-semibold rounded-xl transition-all duration-300 ${
                   scrolled
                     ? "bg-primary text-white hover:bg-primary-light shadow-md"
                     : "bg-white/20 text-white hover:bg-white/30 backdrop-blur-sm border border-white/30"
                 }`}
               >
                 Refer a Patient
-              </Link>
+                <HiArrowRight size={14} />
+              </a>
             </div>
 
             {/* Mobile hamburger */}
@@ -161,13 +164,15 @@ export default function Navbar() {
                 })}
               </div>
               <div className="mt-8">
-                <Link
-                  href="/refer"
+                <a
+                  href={referralUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="block w-full text-center px-6 py-3 bg-primary text-white font-semibold rounded-xl hover:bg-primary-light transition-colors"
                   onClick={() => setMobileOpen(false)}
                 >
                   Refer a Patient
-                </Link>
+                </a>
               </div>
             </motion.div>
           </motion.div>

@@ -152,7 +152,7 @@ export default function RPMBenefitsPage() {
           </h2>
           <p className="text-text-secondary mb-6">
             Central Home Health Services of Texas provides RPM with included
-            devices, setup, training, and 24/7 clinical review. Call us to see
+            devices, setup, training, and ongoing clinical review. Call us to see
             if you qualify.
           </p>
           <div className="flex flex-col sm:flex-row gap-3">

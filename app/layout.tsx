@@ -20,18 +20,18 @@ export const metadata: Metadata = {
     template: "%s | Central Home Health Care of Texas",
   },
   description:
-    "Houston's top-rated home health care agency since 2005. 24/7 skilled nursing, medication management, rehabilitation therapy, attendant services & Medicare-covered Remote Patient Monitoring (RPM). Free consultation. Call 713-378-0781.",
+    "Houston's trusted home health care agency since 2005. Skilled nursing, wound care, medication management, rehabilitation therapy, provider attendant services & Medicare-covered Remote Patient Monitoring (RPM). Free consultation. Call 713-387-0781.",
   keywords: [
     "home health care Houston",
     "home health care Texas",
     "Houston home health agency",
     "skilled nursing Houston",
+    "skilled home health Houston",
     "home health care near me",
     "in-home care Houston TX",
     "Medicare home health Houston",
     "home health services Houston",
     "best home health agency Houston",
-    "24 hour home care Houston",
     "home health aide Houston",
     "post-surgery home care",
     "elderly home care Houston",
@@ -84,7 +84,7 @@ export const metadata: Metadata = {
     title:
       "Central Home Health Care of Texas | #1 Rated Home Health Care in Houston",
     description:
-      "Houston's top-rated home health care agency since 2005. 24/7 skilled nursing, medication management, rehabilitation therapy, attendant services & Medicare-covered RPM. Call 713-378-0781.",
+      "Houston's trusted home health care agency since 2005. Skilled nursing, medication management, rehabilitation therapy, provider attendant services & Medicare-covered RPM. Call 713-387-0781.",
     url: BASE_URL,
     siteName: siteConfig.name,
     locale: "en_US",
@@ -103,7 +103,7 @@ export const metadata: Metadata = {
     title:
       "Central Home Health Care of Texas | Top-Rated Houston Home Health Agency",
     description:
-      "24/7 skilled nursing, medication management, rehabilitation therapy, attendant services & Medicare-covered RPM. Serving Houston since 2005.",
+      "Skilled nursing, medication management, rehabilitation therapy, provider attendant services & Medicare-covered RPM. Serving Houston since 2005.",
     images: [`${BASE_URL}/og-image.jpg`],
   },
   robots: {
@@ -143,7 +143,7 @@ export default function RootLayout({
         url: BASE_URL,
         logo: `${BASE_URL}/logo.png`,
         description:
-          "Houston's top-rated home health care agency providing skilled nursing, medication distribution, rehabilitation therapy, attendant services, and Medicare-covered Remote Patient Monitoring (RPM) since 2005.",
+          "Houston's trusted home health care agency providing skilled nursing, wound care, medication management, rehabilitation therapy, provider attendant services, and Medicare-covered Remote Patient Monitoring (RPM) since 2005.",
         telephone: contactInfo.phone,
         email: contactInfo.email,
         foundingDate: "2005",
@@ -174,7 +174,10 @@ export default function RootLayout({
           "Skilled Nursing",
           "Home Health Care",
           "Rehabilitation Therapy",
+          "Wound Care",
           "Medication Management",
+          "Medical Social Services",
+          "Provider Attendant Services",
           "Remote Patient Monitoring",
         ],
         availableService: services.map((s) => ({
@@ -190,11 +193,9 @@ export default function RootLayout({
             "Wednesday",
             "Thursday",
             "Friday",
-            "Saturday",
-            "Sunday",
           ],
-          opens: "00:00",
-          closes: "23:59",
+          opens: "08:00",
+          closes: "17:00",
         },
         contactPoint: [
           {
@@ -203,8 +204,7 @@ export default function RootLayout({
             contactType: "customer service",
             areaServed: "US",
             availableLanguage: ["English", "Spanish"],
-            hoursAvailable:
-              "Mo-Su 00:00-23:59",
+            hoursAvailable: "Mo-Fr 08:00-17:00",
           },
           {
             "@type": "ContactPoint",
@@ -212,6 +212,7 @@ export default function RootLayout({
             contactType: "patient intake",
             areaServed: "US",
             availableLanguage: ["English", "Spanish"],
+            hoursAvailable: "Mo-Fr 08:00-17:00",
           },
         ],
         sameAs: [
@@ -251,7 +252,7 @@ export default function RootLayout({
         url: BASE_URL,
         name: siteConfig.name,
         description:
-          "Houston's top-rated home health care agency. 24/7 skilled nursing, medication management, rehabilitation therapy, attendant services, and Medicare-covered RPM.",
+          "Houston's trusted home health care agency. Skilled nursing, medication management, rehabilitation therapy, provider attendant services, and Medicare-covered RPM.",
         publisher: { "@id": `${BASE_URL}#organization` },
         inLanguage: "en-US",
       },
@@ -263,7 +264,7 @@ export default function RootLayout({
             name: "What services does Central Home Health Care of Texas provide?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Central Home Health Care of Texas provides five main services: (1) 24-hour skilled nursing, (2) medication distribution and management, (3) rehabilitation therapy (physical, occupational, and speech), (4) provider attendant services for daily living, and (5) Remote Patient Monitoring (RPM) with FDA-cleared Bluetooth devices.",
+              text: "Central Home Health Care of Texas provides skilled home health care and provider attendant services, including: (1) skilled nursing with wound care, medication management, medical social work, and home health aides; (2) rehabilitation therapy (physical, occupational, and speech); (3) Provider Attendant Services (PAS), a Medicaid benefit for daily living support; and (4) Remote Patient Monitoring (RPM) with FDA-cleared Bluetooth devices.",
             },
           },
           {
@@ -287,7 +288,7 @@ export default function RootLayout({
             name: "How do I refer a patient to Central Home Health Care?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Call 713-378-0781, submit the online referral form at https://www.centraloftexas.com/refer, or email info@centraloftexas.com. Our intake team responds within 24 hours.",
+              text: "Submit a referral through our secure portal at https://Central.referralflow.health, call our skilled home health line at 713-387-0781, or email info@centraloftexas.com. Our intake team will reach out to arrange a consultation.",
             },
           },
           {
@@ -308,10 +309,10 @@ export default function RootLayout({
           },
           {
             "@type": "Question",
-            name: "Does Central Home Health offer 24-hour care?",
+            name: "What are your office hours?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Yes. Our skilled nursing and attendant services are available 24 hours a day, 7 days a week. Our clinical on-call line is staffed around the clock for emergencies.",
+              text: "Our office is open Monday through Friday, 8:00 AM to 5:00 PM. You can reach our skilled home health line at 713-387-0781 or our Provider Services (PAS) line at 713-461-5696 during business hours.",
             },
           },
           {
@@ -319,7 +320,7 @@ export default function RootLayout({
             name: "What insurance do you accept?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "We accept Medicare, Texas Medicaid, private insurance (PPO/HMO), VA benefits, long-term care insurance, workers' compensation, and private pay. Call 713-378-0781 to verify your benefits.",
+              text: "We accept Medicare, Texas Medicaid, private insurance (PPO/HMO), VA benefits, long-term care insurance, workers' compensation, and private pay. Call 713-387-0781 to verify your benefits.",
             },
           },
         ],

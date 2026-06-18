@@ -6,31 +6,20 @@ import SectionWrapper from "@/components/ui/SectionWrapper";
 import Card from "@/components/ui/Card";
 import { services } from "@/lib/data";
 
-// Service-specific Unsplash images
+// Service-specific images (Unsplash + Pexels, all free-license)
 const serviceImages: Record<string, string> = {
-  medication:
-    "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800&auto=format&fit=crop",
   rehab:
     "https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=800&auto=format&fit=crop",
   attendant:
-    "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1773227055624-07b515ba87c5?q=80&w=800&auto=format&fit=crop",
   nursing:
     "https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=800&auto=format&fit=crop",
   rpm:
-    "https://images.unsplash.com/photo-1551076805-e1869033e561?q=80&w=800&auto=format&fit=crop",
+    "https://images.unsplash.com/photo-1776761916500-f639da084b7b?q=80&w=800&auto=format&fit=crop",
 };
 
 // Custom SVG icons
 const serviceIcons: Record<string, React.ReactNode> = {
-  medication: (
-    <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
-      <rect x="12" y="8" width="24" height="32" rx="4" stroke="currentColor" strokeWidth="2" />
-      <line x1="18" y1="16" x2="30" y2="16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-      <line x1="18" y1="22" x2="30" y2="22" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-      <line x1="18" y1="28" x2="24" y2="28" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
-      <circle cx="24" cy="34" r="3" stroke="currentColor" strokeWidth="2" />
-    </svg>
-  ),
   rehab: (
     <svg viewBox="0 0 48 48" fill="none" className="w-12 h-12">
       <circle cx="24" cy="24" r="18" stroke="currentColor" strokeWidth="2" />
@@ -96,7 +85,7 @@ export default function Services() {
             viewport={{ once: true }}
             transition={{ duration: 0.5, delay: 0.1 }}
           >
-            Home Care Done Right
+            Home Health Care Done Right
           </motion.h2>
           <motion.p
             className="text-text-secondary max-w-2xl mx-auto text-lg"

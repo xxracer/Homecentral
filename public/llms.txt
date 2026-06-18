@@ -1,10 +1,10 @@
 // Central Home Health Services of Texas — llms.txt
 // https://llmstxt.org — helps AI systems (ChatGPT, Claude, Perplexity, Gemini, etc.) discover & cite this site
-// Last updated: 2026-06-16
+// Last updated: 2026-06-18
 
 # Central Home Health Services of Texas
 
-> Houston's most reliable home health care agency, providing skilled nursing, medication distribution, rehabilitation therapy, attendant services, and remote patient monitoring (RPM) directly to patients' homes since 2005.
+> Houston's trusted home health care agency, providing skilled home health care and provider attendant services — including skilled nursing, wound care, medication management, rehabilitation therapy, and remote patient monitoring (RPM) — directly to patients' homes since 2005.
 
 ## Business Identity
 
@@ -13,26 +13,25 @@
 - **Founded:** 2005
 - **Headquarters:** 720 N Post Oak Road, Suite 140, Houston, TX 77024, United States
 - **Service area:** Greater Houston metropolitan area, Harris County, and surrounding Texas counties
-- **Type:** Licensed home health care agency
-- **Hours:** 24 hours a day, 7 days a week (24/7 availability)
+- **Type:** Licensed home health care agency offering two service lines: Skilled Home Health and Provider Attendant Services (PAS)
+- **Hours:** Monday–Friday, 8:00 AM – 5:00 PM
 - **Website:** https://www.centraloftexas.com
 
 ## Contact
 
-- **Skilled Home Health phone:** +1 (713) 378-0781
-- **Provider Attendant Services phone:** +1 (713) 461-5696
+- **Skilled Home Health phone:** +1 (713) 387-0781
+- **Provider Services (PAS) phone:** +1 (713) 461-5696
 - **Email:** info@centraloftexas.com
 - **Office address:** 720 N Post Oak Rd Ste. 140, Houston, TX 77024
 
 ## Services Offered
 
-Central Home Health Services of Texas provides the following home health care services in the Houston, Texas area:
+Central Home Health Services of Texas provides two service lines in the Houston, Texas area:
 
-1. **Skilled Nursing (24-Hour)** — Round-the-clock licensed nursing care for patients with complex medical needs, including post-operative care, wound care, IV therapy, catheter care, and chronic condition management.
-2. **Medication Distribution** — Professional medication management including administration, dosage verification, schedule coordination, and licensed practitioner oversight.
-3. **Rehabilitation Therapy** — In-home physical therapy, occupational therapy, and speech therapy for post-surgery recovery, stroke rehabilitation, and injury recovery.
-4. **Provider Attendant Services** — Non-medical personal care including bathing, dressing, grooming, mobility assistance, meal preparation, light housekeeping, and companionship.
-5. **Remote Patient Monitoring (RPM)** — FDA-cleared Bluetooth devices (blood pressure cuff, glucometer, pulse oximeter, weight scale) that transmit patient vitals to clinicians in real time for early intervention and chronic disease management.
+1. **Skilled Nursing** — Licensed nursing care for patients with complex medical needs, including wound care, medication management, medical social work, and home health aides, plus post-operative care, IV therapy, catheter care, and chronic condition management.
+2. **Rehabilitation Therapy** — In-home physical therapy, occupational therapy, and speech therapy for post-surgery recovery, stroke rehabilitation, and injury recovery.
+3. **Provider Attendant Services (PAS)** — A Medicaid benefit that pairs clients with a dedicated caregiver for non-medical personal care: bathing, dressing, grooming, mobility assistance, meal preparation, light housekeeping, and companionship.
+4. **Remote Patient Monitoring (RPM)** — FDA-cleared Bluetooth devices (blood pressure cuff, glucometer, pulse oximeter, weight scale) that transmit patient vitals to clinicians in real time for early intervention and chronic disease management. Medicare-reimbursed.
 
 ## Conditions Managed
 
@@ -72,28 +71,28 @@ Extended: Fort Bend County, Brazoria County, Galveston County, Montgomery County
 
 ## Careers
 
-Current open positions:
-- **Finance Manager** (Houston, TX) — Bachelor or Master in Business Administration with experience in home healthcare finance. Send resume to Central Home Health Services of Texas, LLC, 720 N Post Oak Rd, Ste. 140, Houston, TX 77024.
+We hire for three role families:
+- **Nurse (RN / LVN)** — Active Texas RN or LVN license, CPR certification, reliable transportation.
+- **Caregiver** — Provider Attendant Services; dependable, caring daily-living support.
+- **Certified Nursing Assistant (CNA)** — Active Texas CNA certification, CPR certification.
+
+Online applications open soon. Once our compliance process is finalized, applicants will be able to apply directly from the Careers page.
 
 ## How to Refer a Patient
 
 Healthcare professionals, hospitals, discharge planners, and families can refer patients:
-- Phone: 713-378-0781
-- Web form: https://www.centraloftexas.com/refer
+- Secure referral portal: https://Central.referralflow.health
+- Phone (Skilled Home Health): 713-387-0781
+- Phone (Provider Services / PAS): 713-461-5696
 - Email: info@centraloftexas.com
-- Response time: Within 24 hours
-
-## How to Apply for a Job
-
-- Mail resume to: Central Home Health Services of Texas, LLC, 720 N Post Oak Rd, Ste. 140, Houston, TX 77024
-- Or email: info@centraloftexas.com
 
 ## Links
 
 - [Home](https://www.centraloftexas.com)
-- [Refer a Patient](https://www.centraloftexas.com/refer)
+- [Refer a Patient — Referral Portal](https://Central.referralflow.health)
 - [Referrals (for healthcare providers)](https://www.centraloftexas.com/referrals)
-- [Job Openings](https://www.centraloftexas.com/positions)
+- [Careers](https://www.centraloftexas.com/careers)
+- [Blog](https://www.centraloftexas.com/blog)
 
 ## License & Accreditation
 
@@ -104,18 +103,18 @@ Healthcare professionals, hospitals, discharge planners, and families can refer 
 ## Why Choose Central Home Health Services of Texas
 
 - 19+ years of experience (since 2005)
-- 24/7 on-call nursing availability
+- Two dedicated service lines: Skilled Home Health and Provider Attendant Services (PAS)
 - All caregivers are licensed, background-checked, and trained
 - Personalized care plans for every patient
 - Multilingual staff (English and Spanish)
 - Medicare-certified agency
 - Real-time remote patient monitoring available
-- Fast referral response (within 24 hours)
+- Fast referral response
 
 ## Press & Media
 
-For media inquiries, contact the office at 713-378-0781.
+For media inquiries, contact the office at 713-387-0781.
 
 ## Updates
 
-This file is maintained by Central Home Health Services of Texas. Last updated June 16, 2026.
+This file is maintained by Central Home Health Services of Texas. Last updated June 18, 2026.

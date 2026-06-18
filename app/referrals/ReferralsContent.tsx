@@ -4,8 +4,8 @@ import { motion } from "framer-motion";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import Card from "@/components/ui/Card";
 import Button from "@/components/ui/Button";
-import { referralsContent, contactInfo } from "@/lib/data";
-import { HiPhone, HiArrowRight } from "react-icons/hi";
+import { referralsContent, contactInfo, referralUrl } from "@/lib/data";
+import { HiPhone, HiArrowRight, HiExternalLink } from "react-icons/hi";
 
 export function ReferralsContent() {
   return (
@@ -77,24 +77,26 @@ export function ReferralsContent() {
           >
             <h2 className="text-3xl font-bold text-primary mb-4">Ready to Make a Referral?</h2>
             <p className="text-text-secondary text-lg mb-8">
-              Call us directly or use our contact form. We respond to all referrals within 24 hours.
+              Submit your referral through our secure portal, or call us directly. Our
+              intake team responds to all referrals promptly.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button
                 variant="primary"
                 size="lg"
-                href={`tel:${contactInfo.phone.replace(/-/g, "")}`}
-                icon={<HiPhone />}
+                href={referralUrl}
+                external
+                icon={<HiExternalLink />}
               >
-                Call {contactInfo.phone}
+                Submit Referral
               </Button>
               <Button
                 variant="outline"
                 size="lg"
-                href="/#contact"
-                icon={<HiArrowRight />}
+                href={`tel:${contactInfo.phone.replace(/-/g, "")}`}
+                icon={<HiPhone />}
               >
-                Contact Form
+                Call {contactInfo.phone}
               </Button>
             </div>
           </motion.div>

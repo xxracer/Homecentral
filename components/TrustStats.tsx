@@ -54,9 +54,9 @@ export default function TrustStats() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.1 }}
             >
-              Skilled Home Health &amp;
+              A Longstanding Part of
               <br />
-              Provider Attendant Services
+              Houston’s Home Health Community
             </motion.h2>
             <motion.p
               className="text-text-secondary text-lg leading-relaxed mb-6"
@@ -65,7 +65,9 @@ export default function TrustStats() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.15 }}
             >
-              {siteConfig.description}
+              Central Home Health has proudly served the Houston area for many years,
+              helping patients and families navigate care at home with compassion,
+              professionalism, and respect.
             </motion.p>
             <motion.p
               className="text-text-secondary leading-relaxed mb-10"
@@ -74,10 +76,14 @@ export default function TrustStats() {
               viewport={{ once: true }}
               transition={{ duration: 0.5, delay: 0.2 }}
             >
-              We bring high quality care right to your front door so that you can get
-              better in an environment that is comfortable and familiar to you. From
-              skilled nursing and rehabilitation therapy to Medicaid-funded attendant
-              care, our practitioners cater to the specific needs of each client.
+              As a local home health agency, we understand how important it is for
+              patients to receive care in a familiar environment surrounded by the
+              people who know them best. Our role is to support that process by
+              coordinating with physicians, educating families, and providing skilled
+              services that help patients manage their health at home. We are honored
+              to be part of the communities we serve and remain committed to delivering
+              dependable, patient-centered home health care throughout the Houston
+              area.
             </motion.p>
 
             {/* Stats grid */}

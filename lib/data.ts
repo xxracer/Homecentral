@@ -69,7 +69,6 @@ export const contactInfo: ContactInfo = {
 export const navLinks: NavLink[] = [
   { label: "Home", href: "/" },
   { label: "Blog", href: "/blog" },
-  { label: "Referrals", href: "/referrals" },
   { label: "Careers", href: "/careers" },
 ];
 
@@ -77,28 +76,29 @@ export const navLinks: NavLink[] = [
 export const services: Service[] = [
   {
     id: "skilled-nursing",
-    title: "Skilled Nursing",
+    title: "Skilled Nursing Services",
     description:
-      "Compassionate, hospital-quality skilled nursing delivered in the comfort and familiarity of your own home. Our experienced RNs and LVNs manage complex medical needs and coordinate every part of your care plan.",
+      "Central Home Health provides skilled nursing care at home for patients who need medical support, education, and monitoring under a physician-directed plan of care. Our licensed nurses help patients manage their health needs while remaining in the comfort and familiarity of home.",
     icon: "nursing",
     features: [
-      "Wound Care",
-      "Medication Management",
-      "Medical Social Worker",
-      "Home Health Aides",
+      "Skilled nursing visits",
+      "Medication education and monitoring",
+      "Post-surgical care support",
+      "Chronic condition management",
+      "Coordination with physicians and caregivers",
     ],
   },
   {
     id: "rehabilitation-therapy",
     title: "Rehabilitation Therapy",
     description:
-      "In-home rehabilitation that helps you regain strength, mobility, and independence after surgery, illness, or injury. Our licensed therapists build a customized recovery plan around your goals.",
+      "Central Home Health provides in-home rehabilitation therapy to help patients regain strength, mobility, independence, and confidence after an illness, injury, surgery, or hospital stay. Our therapy team works with each patient's physician-directed plan of care to support safe recovery in the comfort of home.",
     icon: "rehab",
     features: [
-      "Physical Therapy",
-      "Occupational Therapy",
-      "Speech Therapy",
-      "Post-surgery recovery at home",
+      "In-home physical therapy",
+      "Post-surgical rehabilitation support",
+      "Strength, balance, and mobility training",
+      "Personalized treatment plans based on patient needs",
     ],
   },
   {
@@ -149,8 +149,8 @@ export const jobPositions: JobPosition[] = [
       "Compassionate, patient-first mindset",
     ],
     howToApply:
-      "Online applications open soon. Once our compliance process is finalized, you'll be able to apply directly from this page.",
-    applyReady: false,
+      "Click Apply Now to fill out our secure online employment application. You may also call or email the office with questions.",
+    applyReady: true,
   },
   {
     id: "caregiver",
@@ -165,8 +165,8 @@ export const jobPositions: JobPosition[] = [
       "Ability to assist with mobility and personal care",
     ],
     howToApply:
-      "Online applications open soon. Once our compliance process is finalized, you'll be able to apply directly from this page.",
-    applyReady: false,
+      "Click Apply Now to fill out our secure online employment application. You may also call or email the office with questions.",
+    applyReady: true,
   },
   {
     id: "cna",
@@ -181,8 +181,8 @@ export const jobPositions: JobPosition[] = [
       "Strong attention to detail and empathy",
     ],
     howToApply:
-      "Online applications open soon. Once our compliance process is finalized, you'll be able to apply directly from this page.",
-    applyReady: false,
+      "Click Apply Now to fill out our secure online employment application. You may also call or email the office with questions.",
+    applyReady: true,
   },
 ];
 
@@ -190,36 +190,8 @@ export const jobPositions: JobPosition[] = [
 export const trustStats = [
   { value: "19+", label: "Years of Service" },
   { value: "2", label: "Care Lines: Skilled & PAS" },
-  { value: "500+", label: "Patients Served" },
   { value: "100%", label: "Licensed Staff" },
 ];
-
-// ── Referrals page content ──
-export const referralsContent = {
-  title: "Referrals",
-  subtitle:
-    "We welcome referrals from healthcare professionals, hospitals, and families. Partner with us to ensure your patients and loved ones receive the highest quality home health care.",
-  steps: [
-    {
-      step: 1,
-      title: "Submit Referral",
-      description:
-        "Send your referral through our secure online portal with patient information and care needs. You can also call us directly for urgent referrals.",
-    },
-    {
-      step: 2,
-      title: "Care Assessment",
-      description:
-        "Our clinical team reviews each referral and conducts a comprehensive assessment to determine the appropriate care plan.",
-    },
-    {
-      step: 3,
-      title: "Care Begins",
-      description:
-        "Once the care plan is approved, our skilled practitioners begin delivering personalized home health services.",
-    },
-  ],
-};
 
 // ── Refer page content ──
 export const referContent = {

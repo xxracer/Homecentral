@@ -4,7 +4,13 @@ import { motion } from "framer-motion";
 import SectionWrapper from "@/components/ui/SectionWrapper";
 import Card from "@/components/ui/Card";
 import { jobPositions, contactInfo } from "@/lib/data";
-import { HiBriefcase, HiLocationMarker, HiCheckCircle, HiClock } from "react-icons/hi";
+import { HiBriefcase, HiLocationMarker, HiCheckCircle, HiArrowRight, HiExternalLink } from "react-icons/hi";
+
+const roleSlugByJobId: Record<string, string> = {
+  nurse: "nurse",
+  caregiver: "caregiver",
+  cna: "cna",
+};
 
 export function CareersContent() {
   return (
@@ -32,31 +38,6 @@ export function CareersContent() {
           </motion.div>
         </div>
       </section>
-
-      {/* Notice banner */}
-      <SectionWrapper className="bg-surface-warm !pb-0">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            className="flex items-start gap-4 bg-warm-white rounded-2xl border border-warm-gray p-6"
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.5 }}
-          >
-            <div className="w-10 h-10 rounded-xl bg-accent/10 text-accent flex items-center justify-center flex-shrink-0">
-              <HiClock size={20} />
-            </div>
-            <div>
-              <h2 className="font-bold text-primary mb-1">Applications opening soon</h2>
-              <p className="text-text-secondary text-sm leading-relaxed">
-                We&apos;re finalizing our compliance process. Once it&apos;s ready,
-                you&apos;ll be able to click any role below and apply directly. For now,
-                feel free to review the roles we&apos;re hiring for.
-              </p>
-            </div>
-          </motion.div>
-        </div>
-      </SectionWrapper>
 
       {/* Role listings */}
       <SectionWrapper className="bg-surface-warm">
@@ -110,19 +91,18 @@ export function CareersContent() {
 
                   {/* Apply */}
                   <div className="bg-warm-white rounded-xl p-5 border border-warm-gray/50">
-                    <h3 className="text-sm font-semibold text-primary uppercase tracking-wider mb-2">
-                      How to Apply
-                    </h3>
-                    <p className="text-text-secondary text-sm leading-relaxed mb-4">
-                      {job.howToApply}
-                    </p>
-                    <button
-                      type="button"
-                      disabled
-                      className="inline-flex items-center gap-2 px-6 py-3 bg-warm-gray text-text-muted font-semibold rounded-xl cursor-not-allowed"
+                    <a
+                      href={`/careers/apply?role=${roleSlugByJobId[job.id] || job.id}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-2 px-6 py-3 rounded-xl font-semibold text-white bg-primary hover:bg-primary-light transition-colors shadow-md"
                     >
-                      Apply Now (coming soon)
-                    </button>
+                      Apply Now
+                      <HiExternalLink size={18} />
+                    </a>
+                    <p className="text-xs text-text-muted mt-3">
+                      Opens in a new tab. Takes about 8–10 minutes. One application works for all three roles.
+                    </p>
                   </div>
                 </Card>
               </motion.div>
@@ -145,7 +125,7 @@ export function CareersContent() {
             </h2>
             <p className="text-text-secondary text-lg mb-8">
               Reach out to our office and we&apos;ll be happy to talk through the
-              roles and what to expect once applications open.
+              roles and what to expect.
             </p>
             <a
               href={`tel:${contactInfo.phone.replace(/-/g, "")}`}

@@ -90,7 +90,6 @@ Healthcare professionals, hospitals, discharge planners, and families can refer 
 
 - [Home](https://www.centraloftexas.com)
 - [Refer a Patient — Referral Portal](https://Central.referralflow.health)
-- [Referrals (for healthcare providers)](https://www.centraloftexas.com/referrals)
 - [Careers](https://www.centraloftexas.com/careers)
 - [Blog](https://www.centraloftexas.com/blog)
 

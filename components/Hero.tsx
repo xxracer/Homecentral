@@ -198,7 +198,10 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.6, duration: 0.7 }}
           >
-            {siteConfig.description}
+            Central Home Health provides skilled nursing, therapy, wound care, and home
+            health aide services throughout the Houston area. We help patients receive
+            professional, compassionate care at home while staying connected with their
+            physicians and care team.
           </motion.p>
 
           {/* CTAs */}
@@ -238,7 +241,6 @@ export default function Hero() {
             {[
               { value: "19+", label: "Years" },
               { value: "2", label: "Care Lines" },
-              { value: "500+", label: "Patients" },
             ].map((stat, i) => (
               <motion.div
                 key={stat.label}

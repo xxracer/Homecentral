@@ -18,6 +18,12 @@ const nextConfig: NextConfig = {
     return [
       // Old "Positions" page was renamed to "Careers".
       { source: "/positions", destination: "/careers", permanent: true },
+      // "Referrals" page was removed; referral actions now go to the portal.
+      {
+        source: "/referrals",
+        destination: "https://Central.referralflow.health",
+        permanent: true,
+      },
     ];
   },
   // Output as static site for production (optional; set to "export" if you want static files)
